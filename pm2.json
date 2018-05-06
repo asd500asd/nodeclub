@@ -1,0 +1,6 @@
+{
+  "apps": [{
+    "name": "nodeclub",
+    "script": "./app.js"
+  }]
+}
