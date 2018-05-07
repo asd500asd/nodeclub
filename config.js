@@ -11,7 +11,7 @@ var config = {
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
   name: 'Bi8-club', // 社区名字
-  description: 'Bi8-club：咔咔就是发', // 社区的描述
+  description: 'Bi8-club', // 社区的描述
   keywords: 'nodejs, node, express, connect, socket.io',
 
   // 添加到 html head 中的信息
@@ -119,7 +119,7 @@ var config = {
 
   // 版块
   tabs: [
-    ['share', '分享'],
+    ['share', '观察池'],
     ['week', '周报'],  
     ['ask', '问答'],
     // ['job', '招聘'],
