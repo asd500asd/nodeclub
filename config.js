@@ -6,7 +6,7 @@ var path = require('path');
 
 var config = {
   // debug 为 true 时，用于本地调试
-  debug: false,
+  debug: true,
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
@@ -23,7 +23,7 @@ var config = {
   // 右上角的导航区
   site_navs: [
     // 格式 [ path, title, [target=''] ]
-    [ '/about', '关于' ]
+    // [ '/about', '关于' ]
   ],
   // cdn host，如 http://cnodejs.qiniudn.com
   site_static_host: '', // 静态文件存储域名
@@ -81,7 +81,7 @@ var config = {
   weibo_id: 'your_weibo_id',
 
   // admin 可删除话题，编辑标签。把 user_login_name 换成你的登录名
-  admins: { user_login_name: true },
+  admins: { testwj: true },
 
   // github 登陆的配置
   GITHUB_OAUTH: {
@@ -120,8 +120,9 @@ var config = {
   // 版块
   tabs: [
     ['share', '分享'],
+    ['week', '周报'],  
     ['ask', '问答'],
-    ['job', '招聘'],
+    // ['job', '招聘'],
   ],
 
   // 极光推送
