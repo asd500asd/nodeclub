@@ -10,8 +10,8 @@ var config = {
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
-  name: 'Nodeclub', // 社区名字
-  description: 'CNode：Node.js专业中文社区', // 社区的描述
+  name: 'Bi8-club', // 社区名字
+  description: 'Bi8-club：咔咔就是发', // 社区的描述
   keywords: 'nodejs, node, express, connect, socket.io',
 
   // 添加到 html head 中的信息
