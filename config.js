@@ -10,8 +10,8 @@ var config = {
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
-  name: 'Bi8-club', // 社区名字
-  description: 'Bi8-club', // 社区的描述
+  name: 'initialWe-club', // 社区名字
+  description: 'initialWe-club', // 社区的描述
   keywords: 'nodejs, node, express, connect, socket.io',
 
   // 添加到 html head 中的信息
@@ -71,7 +71,7 @@ var config = {
     secure: true,
     auth: {
       user: 'initialwe@163.com',
-      pass: 'initial254708603'
+      pass: '**客户端授权码**'
     }
    
   },
@@ -119,7 +119,7 @@ var config = {
 
   // 版块
   tabs: [
-    ['share', '观察池'],
+    ['share', '分享'],
     ['week', '周报'],  
     ['ask', '问答'],
     // ['job', '招聘'],
